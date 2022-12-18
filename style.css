@@ -35,6 +35,7 @@ body {
   width: 100%;
   padding: 200px 0 185px 0;
   position: relative;
+  z-index: 3;
 }
 
 .header__top {
@@ -193,6 +194,10 @@ body {
 
 
 @media (max-width:768px) {
+  .header {
+   background-position: left;
+  }
+
   .header__burger {
     display: block;
 
@@ -200,8 +205,9 @@ body {
 
   .header__inner {
     position: static;
+  
   }
-
+  
   .header__nav-list {
     position: absolute;
     left: 0;
@@ -310,9 +316,9 @@ body {
 
   .header__text {
     font-size: 16px;
-    color: #fff;
+    color: #252B42;
   }
-
+  
   .header__button {
     padding: 8px 30px;
   }
